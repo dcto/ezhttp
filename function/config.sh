@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 #初始化函数
 load_config(){
 # 下载链接密钥,有效时间
@@ -19,21 +20,21 @@ http://nginx.org/download/nginx-1.10.3.tar.gz
 '
 
 #tengine设置
-tengine_filename="tengine-2.1.0"
-set_md5 $tengine_filename "fb60c57c2610c6a356153613c485e4af"
+tengine_filename="tengine-2.2.0"
+set_md5 $tengine_filename "c5f040d07cdade7b618a4f04f1fdb8fa"
 set_dl $tengine_filename '
-http://dl-cn.centos.bz/protect/10268950/ezhttp/tengine-2.1.0.tar.gz
-http://dl-us.centos.bz/ezhttp/tengine-2.1.0.tar.gz
-http://tengine.taobao.org/download/tengine-2.1.0.tar.gz
+http://dl-cn.centos.bz/protect/10268950/ezhttp/tengine-2.2.0.tar.gz
+http://dl-us.centos.bz/ezhttp/tengine-2.2.0.tar.gz
+http://tengine.taobao.org/download/tengine-2.2.0.tar.gz
 '
 
 #openresty设置
-openresty_filename="openresty-1.9.7.3"
-set_md5 $openresty_filename "33579b96a8c22bedee97eadfc99d9564"
+openresty_filename="openresty-1.11.2.2"
+set_md5 $openresty_filename "f4b9aa960e57ca692c4d3da731b7e38b"
 set_dl $openresty_filename '
-http://dl-cn.centos.bz/protect/10268950/ezhttp/openresty-1.9.7.3.tar.gz
-http://dl-us.centos.bz/ezhttp/openresty-1.9.7.3.tar.gz
-https://openresty.org/download/openresty-1.9.7.3.tar.gz
+http://dl-cn.centos.bz/protect/10268950/ezhttp/openresty-1.11.2.2.tar.gz
+http://dl-us.centos.bz/ezhttp/openresty-1.11.2.2.tar.gz
+https://openresty.org/download/openresty-1.11.2.2.tar.gz
 '
 
 #apache设置
@@ -114,36 +115,36 @@ http://dl-us.centos.bz/ezhttp/php-5.3.29.tar.gz
 http://us1.php.net/distributions/php-5.3.29.tar.gz
 '
 
-php5_4_filename="php-5.4.43"
-set_md5 $php5_4_filename "b09580551c32ba191e926bbbdea4e082"
+php5_4_filename="php-5.4.45"
+set_md5 $php5_4_filename "ba580e774ed1ab256f22d1fa69a59311"
 set_dl $php5_4_filename '
-http://dl-cn.centos.bz/protect/10268950/ezhttp/php-5.4.43.tar.gz
-http://dl-us.centos.bz/ezhttp/php-5.4.43.tar.gz
-http://us1.php.net/distributions/php-5.4.43.tar.gz
+http://dl-cn.centos.bz/protect/10268950/ezhttp/php-5.4.45.tar.gz
+http://dl-us.centos.bz/ezhttp/php-5.4.45.tar.gz
+http://us1.php.net/distributions/php-5.4.45.tar.gz
 '
 
-php5_5_filename="php-5.5.27"
-set_md5 $php5_5_filename "39cc2659f8d777e803816f7b437d9001"
+php5_5_filename="php-5.5.38"
+set_md5 $php5_5_filename "c2545f7164f8f8b2187fb404f11ceb35"
 set_dl $php5_5_filename '
-http://dl-cn.centos.bz/protect/10268950/ezhttp/php-5.5.27.tar.gz
-http://dl-us.centos.bz/ezhttp/php-5.5.27.tar.gz
-http://us1.php.net/distributions/php-5.5.27.tar.gz
+http://dl-cn.centos.bz/protect/10268950/ezhttp/php-5.5.38.tar.gz
+http://dl-us.centos.bz/ezhttp/php-5.5.38.tar.gz
+http://us1.php.net/distributions/php-5.5.38.tar.gz
 '
 
-php5_6_filename="php-5.6.15"
-set_md5 $php5_6_filename "4ec2fe201e24c6f65bf7bd4bac1bc880"
+php5_6_filename="php-5.6.30"
+set_md5 $php5_6_filename "8c7ef86c259abad33f213405a35a13c2"
 set_dl $php5_6_filename '
-http://dl-cn.centos.bz/protect/10268950/ezhttp/php-5.6.15.tar.gz
-http://dl-us.centos.bz/ezhttp/php-5.6.15.tar.gz
-http://us1.php.net/distributions/php-5.6.15.tar.gz
+http://dl-cn.centos.bz/protect/10268950/ezhttp/php-5.6.30.tar.gz
+http://dl-us.centos.bz/ezhttp/php-5.6.30.tar.gz
+http://us1.php.net/distributions/php-5.6.30.tar.gz
 '
 
-php7_1_filename="php-7.1.0"
-set_md5 $php7_1_filename "ec2218f97b4edbc35a2d7919ff37a662"
+php7_1_filename="php-7.1.2"
+set_md5 $php7_1_filename "2d1553f3f912b1cb7b9a5ee63230454d"
 set_dl $php7_1_filename '
-http://dl-cn.centos.bz/protect/10268950/ezhttp/php-7.1.0.tar.gz
-http://dl-us.centos.bz/ezhttp/php-7.1.0.tar.gz
-http://us1.php.net/distributions/php-7.1.0.tar.gz
+http://dl-cn.centos.bz/protect/10268950/ezhttp/php-7.1.2.tar.gz
+http://dl-us.centos.bz/ezhttp/php-7.1.2.tar.gz
+http://us1.php.net/distributions/php-7.1.2.tar.gz
 '
 
 #freetds设置
@@ -156,12 +157,12 @@ ftp://ftp.freetds.org/pub/freetds/stable/freetds-0.95.21.tar.gz
 '
 
 #swoole设置
-swoole_filename="swoole-src-swoole-1.7.20-stable"
-set_md5 $swoole_filename "c44284e20d415ac06db512f3fb1f9863"
+swoole_filename="swoole-src-swoole-2.0.6-stable"
+set_md5 $swoole_filename "78a5df64a838c6ec594dcf645d6be52e"
 set_dl $swoole_filename '
-http://dl-cn.centos.bz/protect/10268950/ezhttp/swoole-src-swoole-1.7.20-stable.tar.gz
-http://dl-us.centos.bz/ezhttp/swoole-src-swoole-1.7.20-stable.tar.gz
-https://codeload.github.com/swoole/swoole-src/tar.gz/swoole-1.7.20-stable
+http://dl-cn.centos.bz/protect/10268950/ezhttp/swoole-src-swoole-2.0.6-stable.tar.gz
+http://dl-us.centos.bz/ezhttp/swoole-src-swoole-2.0.6-stable.tar.gz
+https://github.com/swoole/swoole-src/archive/v2.0.6.tar.gz
 '
 set_hint $swoole_filename "php-swoole-1.7.20"
 
@@ -232,12 +233,12 @@ http://www.imagemagick.org/download/releases/ImageMagick-7.0.4-0.tar.xz
 '
 
 #php redis模块设置
-php_redis_filename="redis-2.2.7"
-set_md5 $php_redis_filename "c55839465b2c435fd091ac50923f2d96"
+php_redis_filename="redis-3.1.1"
+set_md5 $php_redis_filename "6fb69b97a7db4efb5503fa844a3193d5"
 set_dl $php_redis_filename '
-http://dl-cn.centos.bz/protect/10268950/ezhttp/redis-2.2.7.tgz
-http://dl-us.centos.bz/ezhttp/redis-2.2.7.tgz
-http://pecl.php.net/get/redis-2.2.7.tgz
+http://dl-cn.centos.bz/protect/10268950/ezhttp/redis-3.1.1.tgz
+http://dl-us.centos.bz/ezhttp/redis-3.1.1.tgz
+http://pecl.php.net/get/redis-3.1.1.tgz
 '
 set_hint $php_redis_filename "php-${php_redis_filename}"
 
@@ -352,21 +353,21 @@ http://www.memcached.org/files/memcached-1.4.24.tar.gz
 '
 
 #redis设置
-redis_filename="redis-3.0.3"
-set_md5 $redis_filename "76725490d6168cfb4b0ce014b89d4b54"
+redis_filename="redis-3.2.8"
+set_md5 $redis_filename "c91867a18ae0c5f7bb61a7c1120d80b4"
 set_dl $redis_filename '
-http://dl-cn.centos.bz/protect/10268950/ezhttp/redis-3.0.3.tar.gz
-http://dl-us.centos.bz/ezhttp/redis-3.0.3.tar.gz
-http://download.redis.io/releases/redis-3.0.3.tar.gz
+http://dl-cn.centos.bz/protect/10268950/ezhttp/redis-3.2.8.tar.gz
+http://dl-us.centos.bz/ezhttp/redis-3.2.8.tar.gz
+http://download.redis.io/releases/redis-3.2.8.tar.gz
 '
 
 #phpMyAdmin设置
-phpMyAdmin_filename="phpMyAdmin-4.4.12-all-languages"
-set_md5 $phpMyAdmin_filename "37b4fb4ff8681ef8191d03089f21d3fc"
+phpMyAdmin_filename="phpMyAdmin-4.6.6-all-languages"
+set_md5 $phpMyAdmin_filename "4a633956080cae20da7fe7574d8f978d"
 set_dl $phpMyAdmin_filename '
-http://dl-cn.centos.bz/protect/10268950/ezhttp/phpMyAdmin-4.4.12-all-languages.tar.gz
-http://dl-us.centos.bz/ezhttp/phpMyAdmin-4.4.12-all-languages.tar.gz
-https://files.phpmyadmin.net/phpMyAdmin/4.4.12/phpMyAdmin-4.4.12-all-languages.tar.gz
+http://dl-cn.centos.bz/protect/10268950/ezhttp/phpMyAdmin-4.6.6-all-languages.tar.gz
+http://dl-us.centos.bz/ezhttp/phpMyAdmin-4.6.6-all-languages.tar.gz
+https://files.phpmyadmin.net/phpMyAdmin/4.6.6/phpMyAdmin-4.6.6-all-languages.tar.gz
 '
 
 #phpRedisAdmin设置
@@ -379,12 +380,12 @@ https://github.com/ErikDubbelboer/phpRedisAdmin/archive/v1.1.0.tar.gz
 '
 
 #Predis设置(phpRedisAdmin依赖)
-Predis_filename="predis-1.0.1"
-set_md5 $Predis_filename "91ea74ee8bb336417cdf139e708fcf43"
+Predis_filename="predis-1.1.1"
+set_md5 $Predis_filename "0ff8df3f426ca8b0bce1363cb0b13a1c"
 set_dl $Predis_filename '
-http://dl-cn.centos.bz/protect/10268950/ezhttp/predis-1.0.1.tar.gz
-http://dl-us.centos.bz/ezhttp/predis-1.0.1.tar.gz
-https://github.com/nrk/predis/archive/v1.0.1.tar.gz
+http://dl-cn.centos.bz/protect/10268950/ezhttp/predis-1.1.1.tar.gz
+http://dl-us.centos.bz/ezhttp/predis-1.1.1.tar.gz
+https://github.com/nrk/predis/archive/v1.1.1.tar.gz
 '
 
 #memadmin设置
@@ -406,12 +407,12 @@ https://github.com/centos-bz/rockmongo/archive/fix-auth.zip
 '
 
 #PureFTPd设置
-PureFTPd_filename="pure-ftpd-1.0.41"
-set_md5 $PureFTPd_filename "28a0d0a9384f9e9be289febc7f4b8244"
+PureFTPd_filename="pure-ftpd-1.0.45"
+set_md5 $PureFTPd_filename "2bd31340dd422d6ad4316f54274d011e"
 set_dl $PureFTPd_filename '
-http://dl-cn.centos.bz/protect/10268950/ezhttp/pure-ftpd-1.0.41.tar.gz
-http://dl-us.centos.bz/ezhttp/pure-ftpd-1.0.41.tar.gz
-http://download.pureftpd.org/pub/pure-ftpd/releases/pure-ftpd-1.0.41.tar.gz
+http://dl-cn.centos.bz/protect/10268950/ezhttp/pure-ftpd-1.0.45.tar.gz
+http://dl-us.centos.bz/ezhttp/pure-ftpd-1.0.45.tar.gz
+http://download.pureftpd.org/pub/pure-ftpd/releases/pure-ftpd-1.0.45.tar.gz
 '
 
 #user_manager_pureftpd设置
