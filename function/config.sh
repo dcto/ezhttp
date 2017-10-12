@@ -140,7 +140,7 @@ http://us1.php.net/distributions/php-5.6.30.tar.gz
 '
 
 php7_1_filename="php-7.1.10"
-set_md5 $php7_1_filename "de80c2f119d2b864c65f114ba3e438f1"
+set_md5 $php7_1_filename "3fcc89879ca5631967a5dbde3f58cb2f"
 set_dl $php7_1_filename '
 http://dl-cn.centos.bz/protect/10268950/ezhttp/php-7.1.10.tar.gz
 http://dl-us.centos.bz/ezhttp/php-7.1.10.tar.gz
