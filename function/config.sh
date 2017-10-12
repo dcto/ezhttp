@@ -139,12 +139,12 @@ http://dl-us.centos.bz/ezhttp/php-5.6.30.tar.gz
 http://us1.php.net/distributions/php-5.6.30.tar.gz
 '
 
-php7_1_filename="php-7.1.4"
-set_md5 $php7_1_filename "47e7d116553a879ff957ef2684987c23"
+php7_1_filename="php-7.1.10"
+set_md5 $php7_1_filename "de80c2f119d2b864c65f114ba3e438f1"
 set_dl $php7_1_filename '
-http://dl-cn.centos.bz/protect/10268950/ezhttp/php-7.1.4.tar.gz
-http://dl-us.centos.bz/ezhttp/php-7.1.4.tar.gz
-http://us1.php.net/distributions/php-7.1.4.tar.gz
+http://dl-cn.centos.bz/protect/10268950/ezhttp/php-7.1.10.tar.gz
+http://dl-us.centos.bz/ezhttp/php-7.1.10.tar.gz
+http://us1.php.net/distributions/php-7.1.10.tar.gz
 '
 
 #freetds设置
