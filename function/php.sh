@@ -48,7 +48,14 @@ php_preinstall_settings(){
                 read -p "please input $php download url(must be tar.gz file format): " link
                 set_dl $version "$link"
                 custom_info="$custom_info\nphp7_1_filename=$version\n$(get_dl_valname $version)=$link)\n"
-                break                       
+                break
+            elif echo "$version" | grep -q -E '^php-7\.1\.[0-9]+$';then
+                php7_2_filename=$version
+                php=$version
+                read -p "please input $php download url(must be tar.gz file format): " link
+                set_dl $version "$link"
+                custom_info="$custom_info\nphp7_1_filename=$version\n$(get_dl_valname $version)=$link)\n"
+                break
             else
                 echo "version invalid,please reinput."
             fi
