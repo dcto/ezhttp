@@ -337,6 +337,21 @@ install_php(){
         mkdir -p ${php_location}/etc
         \cp  php.ini-production $php_location/etc/php.ini
         [ "$php_mode" == "with_fastcgi" ] && \cp  $php_location/etc/php-fpm.conf.default $php_location/etc/php-fpm.conf 
+
+    elif [ "$php" == "${php7_2_filename}" ];then
+        download_file  "${php7_2_filename}.tar.gz"
+        cd $cur_dir/soft/
+        tar xzvf ${php7_2_filename}.tar.gz
+        cd ${php7_2_filename}
+        make clean
+        error_detect "./configure ${php_configure_args}"
+        error_detect "parallel_make ZEND_EXTRA_LIBS='-liconv'"
+        error_detect "make install"
+
+        #配置php
+        mkdir -p ${php_location}/etc
+        \cp  php.ini-production $php_location/etc/php.ini
+        [ "$php_mode" == "with_fastcgi" ] && \cp  $php_location/etc/php-fpm.conf.default $php_location/etc/php-fpm.conf
     fi
 
     #记录php安装位置
