@@ -63,28 +63,28 @@ http://dl-us.centos.bz/ezhttp/mysql-5.1.73.tar.gz
 http://cdn.mysql.com/Downloads/MySQL-5.1/mysql-5.1.73.tar.gz
 '
 
-mysql5_5_filename="mysql-5.5.54"
-set_md5 $mysql5_5_filename "358b596e62699397aeee3dfb469f5823"
+mysql5_5_filename="mysql-5.5.60"
+set_md5 $mysql5_5_filename "f6e8c40cd16233042ced410fa040af63"
 set_dl $mysql5_5_filename '
-http://dl-cn.centos.bz/protect/10268950/ezhttp/mysql-5.5.54.tar.gz
-http://dl-us.centos.bz/ezhttp/mysql-5.5.54.tar.gz
-http://cdn.mysql.com/Downloads/MySQL-5.5/mysql-5.5.54.tar.gz
+http://dl-cn.centos.bz/protect/10268950/ezhttp/mysql-5.5.60.tar.gz
+http://dl-us.centos.bz/ezhttp/mysql-5.5.60.tar.gz
+http://cdn.mysql.com/Downloads/MySQL-5.5/mysql-5.5.60.tar.gz
 '
 
-mysql5_6_filename="mysql-5.6.35"
-set_md5 $mysql5_6_filename "e4f170f6f73aa94c0d8da90019545908"
+mysql5_6_filename="mysql-5.6.40"
+set_md5 $mysql5_6_filename "ba337c0f41f11ed6875665e968c9e20f"
 set_dl $mysql5_6_filename '
-http://dl-cn.centos.bz/protect/10268950/ezhttp/mysql-5.6.35.tar.gz
-http://dl-us.centos.bz/ezhttp/mysql-5.6.35.tar.gz
-http://cdn.mysql.com/Downloads/MySQL-5.6/mysql-5.6.35.tar.gz
+http://dl-cn.centos.bz/protect/10268950/ezhttp/mysql-5.6.40.tar.gz
+http://dl-us.centos.bz/ezhttp/mysql-5.6.40.tar.gz
+http://cdn.mysql.com/Downloads/MySQL-5.6/mysql-5.6.40.tar.gz
 '
 
-mysql5_7_filename="mysql-5.7.17"
-set_md5 $mysql5_7_filename "db2a87ede6132b226f8d43d3ac349284"
+mysql5_7_filename="mysql-5.7.22"
+set_md5 $mysql5_7_filename "269935a8b72dcba2c774d8d63a8bd1dd"
 set_dl $mysql5_7_filename '
-http://dl-cn.centos.bz/protect/10268950/ezhttp/mysql-5.7.17.tar.gz
-http://dl-us.centos.bz/ezhttp/mysql-5.7.17.tar.gz
-http://cdn.mysql.com/Downloads/MySQL-5.7/mysql-5.7.17.tar.gz
+http://dl-cn.centos.bz/protect/10268950/ezhttp/mysql-5.7.22.tar.gz
+http://dl-us.centos.bz/ezhttp/mysql-5.7.22.tar.gz
+http://cdn.mysql.com/Downloads/MySQL-5.7/mysql-5.7.22.tar.gz
 '
 set_hint $mysql5_7_filename "$mysql5_7_filename (need about 2GB RAM when building,try mysql-5.6 if failed)"
 
