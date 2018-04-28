@@ -241,7 +241,7 @@ http://www.imagemagick.org/download/releases/ImageMagick-7.0.4-0.tar.xz
 '
 
 #php redis模块设置
-php_redis_filename="redis-3.1.1"
+php_redis_filename="redis-3.1.6"
 set_md5 $php_redis_filename "6fb69b97a7db4efb5503fa844a3193d5"
 set_dl $php_redis_filename '
 http://dl-cn.centos.bz/protect/10268950/ezhttp/redis-3.1.6.tgz
