@@ -131,12 +131,12 @@ http://dl-us.centos.bz/ezhttp/php-5.5.38.tar.gz
 http://us1.php.net/distributions/php-5.5.38.tar.gz
 '
 
-php5_6_filename="php-5.6.30"
-set_md5 $php5_6_filename "8c7ef86c259abad33f213405a35a13c2"
+php5_6_filename="php-5.6.35"
+set_md5 $php5_6_filename "aed69568b3cef4bf3de950ee84ee2cb2"
 set_dl $php5_6_filename '
-http://dl-cn.centos.bz/protect/10268950/ezhttp/php-5.6.30.tar.gz
-http://dl-us.centos.bz/ezhttp/php-5.6.30.tar.gz
-http://us1.php.net/distributions/php-5.6.30.tar.gz
+http://dl-cn.centos.bz/protect/10268950/ezhttp/php-5.6.35.tar.gz
+http://dl-us.centos.bz/ezhttp/php-5.6.35.tar.gz
+http://us2.php.net/distributions/php-5.6.35.tar.gz
 '
 
 php7_1_filename="php-7.1.10"
@@ -148,7 +148,7 @@ http://us2.php.net/distributions/php-7.1.10.tar.gz
 '
 
 php7_2_filename="php-7.2.5"
-set_md5 $php7_2_filename "3fcc89879ca5631967a5dbde3f58cb2f"
+set_md5 $php7_2_filename "e9bede5ea2cbb2e3a2581d38316c9356"
 set_dl $php7_2_filename '
 http://dl-cn.centos.bz/protect/10268950/ezhttp/php-7.2.5.tar.gz
 http://dl-us.centos.bz/ezhttp/php-7.2.5.tar.gz
@@ -242,7 +242,7 @@ http://www.imagemagick.org/download/releases/ImageMagick-7.0.4-0.tar.xz
 
 #php redis模块设置
 php_redis_filename="redis-3.1.6"
-set_md5 $php_redis_filename "6fb69b97a7db4efb5503fa844a3193d5"
+set_md5 $php_redis_filename "500775d653988a17f3e44f6d5f605b32"
 set_dl $php_redis_filename '
 http://dl-cn.centos.bz/protect/10268950/ezhttp/redis-3.1.6.tgz
 http://dl-us.centos.bz/ezhttp/redis-3.1.6.tgz
