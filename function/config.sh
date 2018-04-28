@@ -371,7 +371,7 @@ http://download.redis.io/releases/redis-3.2.8.tar.gz
 
 #phpMyAdmin设置
 phpMyAdmin_filename="phpMyAdmin-4.8.0-all-languages"
-set_md5 $phpMyAdmin_filename "4a633956080cae20da7fe7574d8f978d"
+set_md5 $phpMyAdmin_filename "a65c43c281daddf710c92d00223afad9"
 set_dl $phpMyAdmin_filename '
 http://dl-cn.centos.bz/protect/10268950/ezhttp/phpMyAdmin-4.8.0-all-languages.tar.gz
 http://dl-us.centos.bz/ezhttp/phpMyAdmin-4.8.0-all-languages.tar.gz
