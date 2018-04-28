@@ -147,6 +147,14 @@ http://dl-us.centos.bz/ezhttp/php-7.1.10.tar.gz
 http://us2.php.net/distributions/php-7.1.10.tar.gz
 '
 
+php7_2_filename="php-7.2.5"
+set_md5 $php7_2_filename "3fcc89879ca5631967a5dbde3f58cb2f"
+set_dl $php7_2_filename '
+http://dl-cn.centos.bz/protect/10268950/ezhttp/php-7.2.5.tar.gz
+http://dl-us.centos.bz/ezhttp/php-7.2.5.tar.gz
+http://us2.php.net/distributions/php-7.2.5.tar.gz
+'
+
 #freetds设置
 freetds_filename="freetds-0.95.21"
 set_md5 $freetds_filename "90690b8f2f270151092009b71fe9b590"
@@ -236,9 +244,9 @@ http://www.imagemagick.org/download/releases/ImageMagick-7.0.4-0.tar.xz
 php_redis_filename="redis-3.1.1"
 set_md5 $php_redis_filename "6fb69b97a7db4efb5503fa844a3193d5"
 set_dl $php_redis_filename '
-http://dl-cn.centos.bz/protect/10268950/ezhttp/redis-3.1.1.tgz
-http://dl-us.centos.bz/ezhttp/redis-3.1.1.tgz
-http://pecl.php.net/get/redis-3.1.1.tgz
+http://dl-cn.centos.bz/protect/10268950/ezhttp/redis-3.1.6.tgz
+http://dl-us.centos.bz/ezhttp/redis-3.1.6.tgz
+http://pecl.php.net/get/redis-3.1.6.tgz
 '
 set_hint $php_redis_filename "php-${php_redis_filename}"
 
@@ -362,12 +370,12 @@ http://download.redis.io/releases/redis-3.2.8.tar.gz
 '
 
 #phpMyAdmin设置
-phpMyAdmin_filename="phpMyAdmin-4.6.6-all-languages"
+phpMyAdmin_filename="phpMyAdmin-4.8.0-all-languages"
 set_md5 $phpMyAdmin_filename "4a633956080cae20da7fe7574d8f978d"
 set_dl $phpMyAdmin_filename '
-http://dl-cn.centos.bz/protect/10268950/ezhttp/phpMyAdmin-4.6.6-all-languages.tar.gz
-http://dl-us.centos.bz/ezhttp/phpMyAdmin-4.6.6-all-languages.tar.gz
-https://files.phpmyadmin.net/phpMyAdmin/4.6.6/phpMyAdmin-4.6.6-all-languages.tar.gz
+http://dl-cn.centos.bz/protect/10268950/ezhttp/phpMyAdmin-4.8.0-all-languages.tar.gz
+http://dl-us.centos.bz/ezhttp/phpMyAdmin-4.8.0-all-languages.tar.gz
+https://files.phpmyadmin.net/phpMyAdmin/4.8.0/phpMyAdmin-4.8.0-all-languages.tar.gz
 '
 
 #phpRedisAdmin设置
