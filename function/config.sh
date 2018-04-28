@@ -834,7 +834,7 @@ nginx_modules_arr=(${lua_nginx_module_filename} ${nginx_concat_module_filename} 
             ${ngx_substitutions_filter_module_filename} do_not_install)
 apache_arr=( ${apache2_2_filename} ${apache2_4_filename} custom_version do_not_install)
 mysql_arr=( ${mysql5_1_filename} ${mysql5_5_filename} ${mysql5_6_filename} ${mysql5_7_filename} libmysqlclient18 custom_version do_not_install)
-php_arr=( ${php5_2_filename} ${php5_3_filename} ${php5_4_filename} ${php5_5_filename} ${php5_6_filename} ${php7_1_filename} custom_version do_not_install)
+php_arr=( ${php5_2_filename} ${php5_3_filename} ${php5_4_filename} ${php5_5_filename} ${php5_6_filename} ${php7_1_filename} ${php7_2_filename} custom_version do_not_install)
 php_mode_arr=(with_apache  with_fastcgi)
 php_modules_arr=( ${ZendOptimizer_filename} ${ZendGuardLoader_filename} ${xcache_filename} ${eaccelerator_filename}
                  ${php_imagemagick_filename} ${ionCube_filename} ${php_memcache_filename} ${php_memcached_filename} ${php_redis_filename} 
