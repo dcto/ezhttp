@@ -11,21 +11,21 @@ allow_seconds=3600
 ###################主要安装包设置###################
 
 #nginx设置
-nginx_filename="nginx-1.10.3"
-set_md5 $nginx_filename "204a20cb4f0b0c9db746c630d89ff4ea"
+nginx_filename="nginx-1.14.0"
+set_md5 $nginx_filename "2d856aca3dfe1d32e3c9f8c4cac0cc95"
 set_dl $nginx_filename '
-http://dl-cn.centos.bz/protect/10268950/ezhttp/nginx-1.10.3.tar.gz
-http://dl-us.centos.bz/ezhttp/nginx-1.10.3.tar.gz
-http://nginx.org/download/nginx-1.10.3.tar.gz
+http://dl-cn.centos.bz/protect/10268950/ezhttp/nginx-1.14.0.tar.gz
+http://dl-us.centos.bz/ezhttp/nginx-1.14.0.tar.gz
+http://nginx.org/download/nginx-1.14.0.tar.gz
 '
 
 #tengine设置
-tengine_filename="tengine-2.2.0"
-set_md5 $tengine_filename "c5f040d07cdade7b618a4f04f1fdb8fa"
+tengine_filename="tengine-2.2.2"
+set_md5 $tengine_filename "676e9f2587e008a706a0f4b66dcd9933"
 set_dl $tengine_filename '
-http://dl-cn.centos.bz/protect/10268950/ezhttp/tengine-2.2.0.tar.gz
-http://dl-us.centos.bz/ezhttp/tengine-2.2.0.tar.gz
-http://tengine.taobao.org/download/tengine-2.2.0.tar.gz
+http://dl-cn.centos.bz/protect/10268950/ezhttp/tengine-2.2.2.tar.gz
+http://dl-us.centos.bz/ezhttp/tengine-2.2.2.tar.gz
+http://tengine.taobao.org/download/tengine-2.2.2.tar.gz
 '
 
 #openresty设置
