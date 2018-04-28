@@ -135,7 +135,7 @@ php_preinstall_settings(){
                 #php编译参数
                 php_configure_args="--prefix=$php_location  --with-config-file-path=${php_location}/etc  ${php_run_php_mode}  --with-gettext=shared  --with-sqlite  --with-pdo_sqlite  --enable-bcmath=shared  --enable-ftp=shared  --enable-mbstring=shared  --with-iconv  --enable-sockets=shared  --enable-zip  --enable-soap=shared  $other_option  ${with_mysql}  --without-pear  $lib64"
 
-            elif [[ "$php" == "${php5_3_filename}" || "$php" == "${php5_4_filename}" || "$php" == "${php5_5_filename}" || "$php" == "${php5_6_filename}" || "$php" == "${php7_1_filename}" || "$php" == "${php7_1_filename}" ]];then
+            elif [[ "$php" == "${php5_3_filename}" || "$php" == "${php5_4_filename}" || "$php" == "${php5_5_filename}" || "$php" == "${php5_6_filename}" || "$php" == "${php7_1_filename}" || "$php" == "${php7_2_filename}" ]];then
 
                 #判断php运行模式
                 if [ "$php_mode" == "with_apache" ];then
